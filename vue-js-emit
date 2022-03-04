@@ -1,0 +1,9 @@
+ created() add inner
+ 
+ Reload.$on('AfterAdd',()=>{
+            this.ViewAllBrand();
+        })
+        
+add success(){
+Reload.$emit('AfterAdd');
+}        
